@@ -14,11 +14,13 @@
   color: #86878b;
 }
 .awesome-row {
-  position: absolute;
+  display: flex;
+  justify-content: space-between;
 }
 .awesome-item {
   width: 350px;
   margin-top: 67px;
+  flex-direction: column;
 }
 .awesome-item-img {
   width: 70px;
