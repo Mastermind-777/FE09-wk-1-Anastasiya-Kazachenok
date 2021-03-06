@@ -3,9 +3,12 @@
 }
 .awesome-title {
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 25px;
 }
 .awesome-text {
   text-align: center;
+  margin-top: 16px;
 }
 .awesome-row {
   display: flex;
