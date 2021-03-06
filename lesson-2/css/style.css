@@ -26,3 +26,11 @@
   text-transform: uppercase;
   color: #212121;
 }
+.text {
+  margin-top: 16px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #86878b;
+}
