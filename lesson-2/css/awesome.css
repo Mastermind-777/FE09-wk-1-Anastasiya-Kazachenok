@@ -13,11 +13,12 @@
 .awesome-row {
   display: flex;
   justify-content: space-between;
+  margin: 0 -15px;
 }
 .awesome-item {
   width: 350px;
+  margin: 0 15px;
   margin-top: 67px;
-  flex-direction: column;
 }
 .awesome-item-img {
   width: 70px;
