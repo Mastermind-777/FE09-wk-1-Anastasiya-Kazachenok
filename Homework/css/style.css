@@ -1,0 +1,49 @@
+@import url('../css/awesome.css');
+@import url('../css/pricing.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.html {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+  margin: auto;
+  max-width: 1170px;
+  padding: 0 -15px;
+}
+.psevdo-line::after {
+  content: '';
+  width: 64px;
+  height: 2px;
+  background-color: #d98943;
+  display: block;
+  margin: 25px auto;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #212121;
+}
+.text {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #86878b;
+}
+.raw {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
