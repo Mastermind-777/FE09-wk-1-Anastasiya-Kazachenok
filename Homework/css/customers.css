@@ -1,0 +1,102 @@
+.customers {
+  width: 100%;
+  padding: 80px;
+}
+.customers-title {
+  text-align: center;
+  margin-bottom: 34px;
+}
+.customers-text {
+  margin-top: 34px;
+}
+.customers-row {
+  margin: 67px -15px 0px -15px;
+}
+.customers-row-item {
+  display: flex;
+  max-width: 298px;
+  margin: auto;
+  margin: 0 15px;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 5px 5px;
+}
+.customers-row-text {
+  width: 298px;
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+}
+.customers-comment {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  overflow-wrap: break-word;
+  color: #86878b;
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  overflow: auto;
+  padding: 9px 22px 6px 23px;
+}
+
+/*не получается отпозиционировать треугольник сверху;
+когда добавляешь/уменьшаешь текст, треугольник остается на своем прежнем месте*/
+.customers-row-text::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 13px solid #e2e2e2;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  display: block;
+  position: absolute;
+  margin-top: 92.6%;
+  margin-left: 40px;
+}
+
+.customers-row-icon {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  height: 100%;
+}
+.customer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.customers-item-name {
+  /* width: 97px; */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+  padding-bottom: 12px;
+}
+.customers-item-occupation {
+  /* width: 59px; */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}

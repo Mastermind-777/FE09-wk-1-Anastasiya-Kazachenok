@@ -8,54 +8,67 @@
   margin-bottom: 34px;
 }
 .pricing-text {
-  margin-top: 34px;
+  margin-bottom: 63px;
 }
 .pricing-card {
-  margin: 63px 0 -15px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px -15px;
 }
 .pricing-card-item {
   width: 340px;
-  margin: 0 15px 0;
+  margin: 0 15px;
+  text-align: center;
 }
-.pricing-card-item-1 {
-  background: #333333;
+.dark {
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.dark-title {
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 8px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
+  line-height: 50px;
   text-align: center;
-  color: #ffffff;
-  line-height: 50px; /*задает высоту строки*/
   margin-bottom: 1px;
 }
-p {
-  display: block;
-}
-.pricing-card-item-2 {
-  background: #333333;
+.dark-price {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
-  line-height: 100px; /*задает высоту строки*/
-  text-align: center;
   color: #ffffff;
+  line-height: 100px;
   margin-bottom: 2px;
 }
-.pricing-card-item-3 {
-  background: #333333;
+.dark-free {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 50px; /*задает высоту строки*/
   text-align: center;
+  line-height: 50px;
+  margin-bottom: 4px;
   color: rgba(255, 255, 255, 0.5);
+}
+.light {
+  background-color: #ffffff;
+  color: #86878b;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
   margin-bottom: 4px;
 }
-
 /*оранжевая строка*/
-.pricing-card-item-3-color {
+.dark-free-color {
   background: #d98943;
   font-family: Open Sans;
   font-style: normal;
@@ -64,72 +77,5 @@ p {
   line-height: 50px; /*задает высоту строки*/
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 4px;
-}
-
-.pricing-card-item-4 {
-  background: #ffffff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 40px; /*задает высоту строки*/
-  text-align: center;
-  color: #86878b;
-  margin-bottom: 4px;
-}
-.pricing-card-item-5 {
-  background: #ffffff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 40px; /*задает высоту строки*/
-  text-align: center;
-  color: #86878b;
-  margin-bottom: 4px;
-}
-.pricing-card-item-6 {
-  background: #ffffff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 40px; /*задает высоту строки*/
-  text-align: center;
-  color: #86878b;
-  margin-bottom: 4px;
-}
-.pricing-card-item-7 {
-  background: #ffffff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 40px; /*задает высоту строки*/
-  text-align: center;
-  color: #86878b;
-  margin-bottom: 4px;
-}
-.pricing-card-item-8 {
-  background: #ffffff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 40px; /*задает высоту строки*/
-  text-align: center;
-  color: #86878b;
-  margin-bottom: 4px;
-}
-.pricing-card-item-9 {
-  background: #ffffff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 40px; /*задает высоту строки*/
-  text-align: center;
-  color: #86878b;
   margin-bottom: 4px;
 }
