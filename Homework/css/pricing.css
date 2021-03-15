@@ -1,6 +1,7 @@
 .pricing {
   width: 100%;
-  padding: 80px;
+  padding-top: 80px;
+  padding-bottom: 60px;
   background: #f5f5f5;
   background-size: cover;
 }

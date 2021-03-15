@@ -1,0 +1,50 @@
+.header{
+width: 100%;
+background:#000000;
+}
+.header-logo {
+display: inline-block;
+font-family: Raleway;
+text-transform: uppercase;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF;
+}
+.header-logo::after {
+content: 'it';
+display: inline-block;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+color: #ec7979;
+font-size: 30px;
+}
+.header-row {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+.header-nav_items {
+display: flex;
+}
+.header-nav_item {
+ margin-right: 48px;
+ margin-top: 25px;
+ margin-bottom: 25px;
+}
+.header-link {
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+color: rgba(255, 255, 255, 0.7);
+}

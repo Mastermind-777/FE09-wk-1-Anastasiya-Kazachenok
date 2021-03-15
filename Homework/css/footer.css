@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.footer_item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.footer_item_icon {
+  padding-right: 30px;
+}
+.footer_item_icon-7 {
+  margin-right: -30px;
+ }
+.footer_item_link {
+  color: rgba(255, 255, 255, 0.685);
+  font-size: 23px;
+}
+.footer-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*создание "защиты авторских прав" ("copyright") через псевдоэлемент*/
+.footer-text::before {
+  content: '\f1f9   ';
+  font-family: 'Font Awesome 5 Free';
+  font-size: 12px;
+  font-weight: 500;
+}
