@@ -38,10 +38,16 @@
   flex-wrap: wrap;
  }
 .social_item_icon { 
-  margin-right: 60px;
-  /* transition: 0.3s ease; */
+  margin-right: 93px;
+  margin-top: -20px;
 }
 .social_item_link {
   color: #c7c7c7;
   font-size: 42px;
+  position: absolute;
+  transition: 0.4s ease;
+ }
+ .social_item_link:hover {
+  color: #ec8830;
+  font-size: 56px;
  }

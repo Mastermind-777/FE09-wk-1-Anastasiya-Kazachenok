@@ -1,6 +1,8 @@
 .header{
 width: 100%;
 background:#000000;
+padding-top: 20px;
+padding-bottom: 19px;
 }
 .header-logo {
 display: inline-block;
@@ -30,12 +32,19 @@ flex-wrap: wrap;
 }
 .header-nav_items {
 display: flex;
+margin-right: 100px;
+margin-top: -10px;
 }
 .header-nav_item {
- margin-right: 48px;
- margin-top: 25px;
- margin-bottom: 25px;
+ padding-right: 25px;
+ padding-left: 65px;
 }
+.header-nav_item-1 {
+padding-right: 45px;
+}
+.header-nav_item-4 {
+padding-right: 35px;
+  }
 .header-link {
 font-family: Open Sans;
 font-style: normal;
@@ -47,4 +56,11 @@ align-items: center;
 text-align: center;
 text-transform: capitalize;
 color: rgba(255, 255, 255, 0.7);
+position: absolute;
+transition: 0.35s ease;
+}
+.header-link:hover {
+color:  #ec7979;
+font-size: 18px;
+border-bottom: 2px solid  #ec7979;
 }

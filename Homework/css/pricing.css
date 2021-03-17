@@ -8,19 +8,25 @@
 .pricing-title {
   margin-bottom: 34px;
 }
-.pricing-text {
-  margin-bottom: 63px;
-}
 .pricing-card {
   display: flex;
   justify-content: space-between;
-  margin: 0px -15px;
+  margin: 0 -15px;
 }
 .pricing-card-item {
   width: 340px;
   margin: 0 15px;
+  margin-top: 63px;
   text-align: center;
 }
+.pricing-card-item-optima {
+  transition: 0.2s ease;
+}
+/*строка Optima поднимется вверх*/
+.pricing-card-item-optima:hover {
+  margin-top: -0;
+}
+
 .dark {
   background-color: #333333;
   color: rgba(255, 255, 255, 0.5);
@@ -54,7 +60,6 @@
   font-size: 14px;
   line-height: 50px; /*задает высоту строки*/
   text-align: center;
-  line-height: 50px;
   margin-bottom: 4px;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -68,15 +73,25 @@
   line-height: 40px;
   margin-bottom: 4px;
 }
+
 /*оранжевая строка*/
 .dark-free-color {
-  background: #d98943;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px; /*задает высоту строки*/
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 4px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: 0.2s ease;
+  }
+.dark-free-color:hover {
+  background-color: #d98943;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
-  line-height: 50px; /*задает высоту строки*/
-  text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 4px;
-}
+ }

@@ -15,7 +15,7 @@
 .awesome-item {
   width: 350px;
   margin: 0 15px 0;
-}
+ }
 .awesome-item-img {
   width: 70px;
   height: 70px;
@@ -29,7 +29,13 @@ img {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-}
+  transition: 0.2s ease;
+ }
+
+ /*увеличивается картинка, не толкая за собой окружность*/
+ img:hover{
+   transform: scale(1.4, 1.4);
+ }
 .awesome-item-subtitle {
   margin-top: 30px;
   text-align: center;

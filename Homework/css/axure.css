@@ -59,4 +59,12 @@
   font-size: 15px;
   color: #ffffff;
   padding: 11px 26px 11px 26px;
+  transition: 0.4s ease;
+}
+
+/*почему кнопка дрожит при наведении курсора на рамку?*/
+.axure-link:hover {
+  margin-top: 77px;
+  border: 5px solid #d98943;
+  color:#f8f3ef;
 }
