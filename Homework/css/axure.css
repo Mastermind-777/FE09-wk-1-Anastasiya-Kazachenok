@@ -1,8 +1,8 @@
 .axure {
   width: 100%;
   padding-top: 58px;
-  padding-bottom: 49px;
-  background-image: url('../bg/background\ 1.png');
+  padding-bottom: 38px;
+  background-image: url('../img/bg/background-axure.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -62,9 +62,6 @@
   transition: 0.4s ease;
 }
 
-/*почему кнопка дрожит при наведении курсора на рамку?*/
 .axure-link:hover {
-  margin-top: 77px;
-  border: 5px solid #d98943;
-  color:#f8f3ef;
+  border: 1px solid #d98943;
 }

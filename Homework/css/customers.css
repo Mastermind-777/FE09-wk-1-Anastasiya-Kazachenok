@@ -1,7 +1,7 @@
 .customers {
   width: 100%;
   padding-top: 80px;
-  padding-bottom: 119px;
+  padding-bottom: 100px;
 }
 .customers-title {
   text-align: center;
@@ -11,6 +11,8 @@
   margin-top: 34px;
 }
 .customers-row {
+  display: flex;
+  flex-wrap: wrap;
   margin: 67px -15px 0px -15px;
 }
 .customers-row-item {
@@ -20,7 +22,6 @@
   margin: 0 15px;
   justify-content: space-between;
   flex-direction: column;
-  padding: 0 5px 5px;
 }
 .customers-row-text {
   width: 298px;
@@ -33,7 +34,6 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  align-items: center;
   text-align: center;
   overflow-wrap: break-word;
   color: #86878b;
@@ -44,11 +44,9 @@
   transition: 0.3s ease;
 }
 .customers-comment:hover {
-  background-color:  #d98943;
+  background-color: #d98943;
   color: #e0dfdf;
 }
-/*не получается отпозиционировать треугольник сверху;
-когда добавляешь/уменьшаешь текст, треугольник остается на своем прежнем месте*/
 .customers-row-text::after {
   content: '';
   width: 0;
@@ -59,8 +57,12 @@
   border-bottom: 12px solid transparent;
   display: block;
   position: absolute;
-  margin-top: 92.6%;
-  margin-left: 40px;
+  top: 100%;
+  left: 40px;
+  transition: 0.3s ease;
+}
+.customers-row-text:hover:after {
+  border-top: 13px solid #d98943;
 }
 
 .customers-row-icon {
@@ -74,6 +76,7 @@
   height: 70px;
   overflow: hidden;
   margin-left: 10px;
+  margin-bottom: 15px;
   display: flex;
   justify-content: center;
   align-items: center;

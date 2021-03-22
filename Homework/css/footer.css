@@ -9,22 +9,22 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 18px;
-  position: relative;
 }
 .footer_item_icon {
-  padding-right: 30px;
+  margin-left: 30px;
 }
-.footer_item_icon-7 {
-  margin-right: -30px;
- }
+.footer_item_icon:first-child {
+  margin-left: 0px;
+}
 .footer_item_link {
+  display: block;
   color: rgba(255, 255, 255, 0.685);
   font-size: 23px;
   transition: 0.3s ease;
 }
 .footer_item_link:hover {
-  color: #d98943;
-  font-size: 35px;
+  color: #ec7979;
+  transform: scale(1.6, 1.6);
 }
 .footer-text {
   font-family: Open Sans;
@@ -34,9 +34,6 @@
   line-height: 16px;
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  top: 40px;
-  left: 521px;
 }
 
 /*создание "защиты авторских прав" ("copyright") через псевдоэлемент*/

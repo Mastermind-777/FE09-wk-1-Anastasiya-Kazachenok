@@ -1,6 +1,7 @@
 .awesome {
   width: 100%;
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 85px;
 }
 .awesome-title {
   text-align: center;
@@ -10,12 +11,14 @@
   margin-top: 30px;
 }
 .awesome-row {
-  margin: 36px -15px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 68px -15px 0px -15px;
 }
 .awesome-item {
   width: 350px;
-  margin: 0 15px 0;
- }
+  margin: 0 15px 15px;
+}
 .awesome-item-img {
   width: 70px;
   height: 70px;
@@ -23,19 +26,19 @@
   border: 1px solid #d98943;
   border-radius: 50%;
 }
-img {
+.img-awesome {
   display: block;
   margin-top: 19px;
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   transition: 0.2s ease;
- }
+}
 
- /*увеличивается картинка, не толкая за собой окружность*/
- img:hover{
-   transform: scale(1.4, 1.4);
- }
+/*увеличивается картинка, не толкая за собой окружность*/
+.img-awesome:hover {
+  transform: scale(1.4, 1.4);
+}
 .awesome-item-subtitle {
   margin-top: 30px;
   text-align: center;

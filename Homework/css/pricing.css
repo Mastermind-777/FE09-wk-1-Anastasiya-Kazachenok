@@ -10,6 +10,7 @@
 }
 .pricing-card {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 -15px;
 }
@@ -24,7 +25,7 @@
 }
 /*строка Optima поднимется вверх*/
 .pricing-card-item-optima:hover {
-  margin-top: -0;
+  margin-top: -0px;
 }
 
 .dark {
@@ -86,7 +87,7 @@
   margin-bottom: 4px;
   color: rgba(255, 255, 255, 0.5);
   transition: 0.2s ease;
-  }
+}
 .dark-free-color:hover {
   background-color: #d98943;
   font-family: Open Sans;
@@ -94,4 +95,4 @@
   font-weight: 800;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
- }
+}
