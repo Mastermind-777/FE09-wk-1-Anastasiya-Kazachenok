@@ -1,0 +1,116 @@
+.tabs {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 105px;
+}
+.container {
+}
+.tabs-contaner {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.tabs-links {
+  margin-right: 118px;
+  margin-top: 25px;
+}
+.tabs-links-item {
+}
+.tabs-link-item-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 110px;
+  box-sizing: border-box;
+  background-color: #333333;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+.tabs-link-item-1:hover {
+  background-color: #ec7979;
+}
+.tabs_item_link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tabs-link-item-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 112px;
+  height: 110px;
+  box-sizing: border-box;
+  background-color: #333333;
+  border-radius: 4px;
+}
+.tabs-link-item-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 110px;
+  box-sizing: border-box;
+  background-color: #333333;
+  border-radius: 4px;
+}
+.tabs-info {
+  margin-top: 26px;
+}
+.tabs-title {
+  margin-bottom: 58px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.tabs-text-description {
+  margin-bottom: 1.5em;
+}
+.tabs-text {
+  max-width: 572px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  color: #86878b;
+}
+.tabs-link {
+  width: 135px;
+  height: 42px;
+  margin-top: 69px;
+  margin-left: start;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease;
+}
+.tabs-link:hover {
+  background-color: #ec7979;
+  border: 1px solid #ec7979;
+}
+.tabs-img {
+  margin-left: 50px;
+}
