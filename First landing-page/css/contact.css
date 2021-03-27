@@ -3,15 +3,18 @@
   padding-top: 80px;
   padding-bottom: 44px;
 }
+.modern-form {
+  width: 100%;
+}
 .contact-info {
+  margin: 91px -15px 0px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.form-contact-items {
-  /* max-width: 478px; */
-  width: 478px;
-  margin-top: 91px;
+.form-content-contact {
+  margin: 0 15px;
+  width: 40%;
 }
 .input-contact-password {
   display: block;
@@ -36,12 +39,12 @@
   margin: 34px auto;
 }
 .textarea-contact-items {
-  /* max-width: 478px; */
-  width: 478px;
-  margin-top: 91px;
+  margin: 0 15px;
+  width: 40%;
 }
 .placeholder-contact {
   display: block;
+  width: 100%;
   margin-top: 32px;
   font-family: Open Sans;
   font-style: normal;
@@ -52,7 +55,7 @@
 }
 .textarea-contact {
   width: 100%;
-  height: 215px;
+  height: 214px;
   border: #ffffff;
   border-bottom: 1px solid #bdbdbd;
   overflow: auto;
