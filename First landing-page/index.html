@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"> 
-  <meta http-equiv="X-UA-Compatible" content="IE=adge"  />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=adge">
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="/css/style.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!--подключение иконок-->
@@ -20,38 +20,47 @@
     <div class="container">
       <div class="header-row">
         <div class="header-logo">ax</div>
+        <div class="header-burger">
+          <span></span>
+        </div>
         <nav class="header-nav">
           <ul class="header-nav_items">
             <li class="header-nav_item header-nav_item-1">
-              <a class="header-link" href="http://..">feautures</a>
+              <a class="header-link" href="#">feautures</a>
             </li>
             <li class="header-nav_item header-nav_item-2">
-              <a class="header-link" href="http://..">about</a>
+              <a class="header-link" href="#">about</a>
             </li>
             <li class="header-nav_item header-nav_item-3">
-              <a class="header-link" href="http://..">pricing</a>
+              <a class="header-link" href="#">pricing</a>
             </li>
             <li class="header-nav_item header-nav_item-4">
-              <a class="header-link" href="http://..">reviews</a>
+              <a class="header-link" href="#">reviews</a>
             </li>
             <li class="header-nav_item header-nav_item-5">
-              <a class="header-link" href="http://..">contact</a>
+              <a class="header-link" href="#">contact</a>
             </li>
           </ul>
         </nav>
-      </div>
+        </div>
     </div>
   </header>
 
+  <!-- Подключение jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+
+  <!-- Подключение файла JS скриптов -->
+  <script src="js/script.js"></script>
+
 <section class="modern">
-  <div class="container">
+  <div class="container modern-container">
     <div class="modern-row">
     <div class="modern-container-text">
     <div class="modern-logo">ax</div>  
     <h2 class="title">
     <div class="modern-title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</div>
     </h2>
-    <div class="psevdo-line-modern"></div>
+    <div class="psevdo-line-modern"></div> 
     <h5 class="text">
       <div class="modern-text">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean
@@ -59,16 +68,10 @@
     </h5>
     <a class="modern-link" href="#">Download</a>
     </div>
-    <form action="mail.php" name="modern-form" method="POST" target="blank">
+    <form action="#" class="modern-form" method="POST" target="blank">
       <div class="form-content">
-        <ul class="form-content-items">
-          <li class="form-content-item">Try</li>
-          <li class="form-content-item">Your</li>
-          <li class="form-content-item">Free</li>
-          <li class="form-content-item">Trial</li>
-          <li class="form-content-item">Today</li>
-         </ul>
-      <div class="form-tab-items">
+        <h2 class="form-content-title">Try Your <span class="form-conent-title-span">Free</span> Trial Today</h2>
+         <div class="form-tab-items">
         <div class="form-tab-item-name">
         <placeholder class="placeholder-tab">Name</placeholder>
         <input class="input-tab" type="text"> 
@@ -82,9 +85,9 @@
         <input class="input-tab" type="password"> 
         </div>
       </div>
-        <button class="form-btn">Get Started</button>
       </div>
-    </form>
+        <button class="form-btn">Get Started</button>
+      </form>
   </div>
   </div>
 </section>
@@ -361,7 +364,7 @@
             </div>
         </section>
 
-         <section class="contact">
+        <section class="contact">
           <div class="container">
             <h2 class="title">
               <div class="contact-title">contact us</div>
@@ -372,7 +375,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </div>
             </h5>
-            <form class="modern-form">
+            <form class="contact-form">
               <div class="contact-info">
               <div class="form-content-contact">
                 <div class="form-contact-items">

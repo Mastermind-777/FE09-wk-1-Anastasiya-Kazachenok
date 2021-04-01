@@ -21,10 +21,10 @@
   font-size: 20px;
   line-height: 27px;
   color: #333333;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 }
 .social-text-description {
-  width: 365px;
+  max-width: 365px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;

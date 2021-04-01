@@ -18,7 +18,7 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.45);
 }
-.container {
+.modern-container {
   position: relative;
   z-index: 1;
 }
@@ -35,7 +35,7 @@
   text-transform: uppercase;
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 70px;
   color: #ffffff;
 }
@@ -47,7 +47,7 @@
   font-weight: normal;
   text-transform: uppercase;
   color: #ec7979;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 .modern-title {
   margin-top: 32px;
@@ -55,7 +55,7 @@
   line-height: 42px;
   color: #ffffff;
   text-align: start;
-  width: 544px;
+  max-width: 544px;
 }
 .psevdo-line-modern::after {
   content: '';
@@ -86,39 +86,32 @@
   color: #ffffff;
   padding: 11px 26px 11px 26px;
 }
-.form-content {
-  max-width: 370px;
+.modern-form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 33%;
   background: #ffffff;
   border-radius: 8px;
 }
-.form-content-items {
-  display: flex;
-  flex-wrap: wrap;
+.form-content {
+  padding: 20px 59px;
 }
-.form-content-item {
-  margin-right: 5px;
+.form-content-title {
+  text-align: center;
+  font-size: 1.25rem;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 54px;
-  justify-content: center;
   color: #333333;
 }
-.form-content-item:first-child {
-  margin-left: 52px;
-}
-.form-content-item:last-child {
-  margin-right: 52px;
-}
-.form-content-item:nth-child(3) {
+.form-conent-title-span {
   color: #ec7979;
   text-transform: uppercase;
 }
+
 .form-tab-items {
   width: 100%;
-  margin-left: 59px;
-  padding-right: 108px;
 }
 .placeholder-tab {
   font-family: Open Sans;
