@@ -1,0 +1,67 @@
+.portfolio {
+  width: 100%;
+}
+.container-portfolio {
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  padding: 0px;
+}
+
+.photo-row {
+  width: 100%;
+  padding: 0 -15px 0 -15px;
+}
+.photo-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5px;
+}
+
+.photo-image {
+  margin: 0px 0px 0px 0px;
+  max-width: 460px;
+  height: 220px;
+  position: relative;
+}
+.portfolio-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.portfolio-link {
+  transition: 0.2s ease;
+}
+.portfolio-link:hover::before {
+  content: 'Project Name';
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 11px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #e84545;
+  opacity: 0.88;
+}
+.portfolio-link:hover::after {
+  content: 'User Interface Design';
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  position: absolute;
+  top: 57%;
+  left: 28%;
+}
