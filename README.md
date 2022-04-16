@@ -1,2 +1,2 @@
-# FE09-wk-1-Anastasiya-Kazachenok
-first commit
+# Anastasia Lishenko
+My first training landing page. Design layout from Figma.
