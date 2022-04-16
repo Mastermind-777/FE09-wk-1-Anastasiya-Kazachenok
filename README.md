@@ -1,6 +1,6 @@
 ## My first training landing page  
 
-## DEMO page: https://mastermind-777.github.io/My-first-landig-page/
+## [DEMO page](https://mastermind-777.github.io/My-first-landig-page/)
 ---
 
 *Design layout from Figma.*    
