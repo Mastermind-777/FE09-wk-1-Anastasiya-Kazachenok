@@ -1,0 +1,89 @@
+@media (max-width: 767px) {
+  /* Чтобы содержимое сайта под открытым бургером не скролилось */
+  body.lock {
+    overflow: hidden;
+  }
+
+  .header-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 9999;
+  }
+  /* Рисуем полоски бургер-меню */
+  .header-burger span {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    top: 9px;
+    transition: all 0.2s ease 0s;
+  }
+  .header-burger:before,
+  .header-burger:after {
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    transition: all 0.2s ease 0s;
+  }
+  .header-burger:before {
+    top: 0;
+  }
+  .header-burger:after {
+    bottom: 0;
+  }
+  /* Закончили рисовать полоски */
+
+  /* Делаем из полосок бургер-меню крестик в развернутом состоянии */
+  .header-burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .header-burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 8px;
+  }
+  .header-burger.active span {
+    transform: scale(0);
+  }
+
+  .header-nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #ec7979;
+    opacity: 0.94;
+    padding: 75px 0 0 0;
+    transition: all 0.2s ease 0s;
+  }
+  .header-nav.active {
+    top: 0;
+  }
+
+  .header-nav_items {
+    flex-direction: column;
+  }
+  .header-nav_item {
+    margin: auto;
+    margin-top: 55px;
+  }
+  .header-nav_item:first-child {
+    margin-top: 7px;
+  }
+  .header-nav_item:last-child {
+    margin-bottom: 45px;
+  }
+  .header-link {
+    font-size: 30px;
+    color: #ffffff;
+    /* font-family: Raleway; */
+  }
+}

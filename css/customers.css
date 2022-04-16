@@ -1,0 +1,110 @@
+.customers {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.customers-title {
+  text-align: center;
+  margin-bottom: 34px;
+}
+.customers-text {
+  margin-top: 34px;
+}
+.customers-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 67px -15px 0px -15px;
+}
+.customers-row-item {
+  display: flex;
+  max-width: 298px;
+  margin: auto;
+  margin: 0 15px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.customers-row-text {
+  width: 298px;
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+}
+.customers-comment {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  overflow-wrap: break-word;
+  color: #86878b;
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  overflow: auto;
+  padding: 9px 22px 6px 23px;
+  transition: 0.3s ease;
+}
+.customers-comment:hover {
+  background-color: #d98943;
+  color: #e0dfdf;
+}
+.customers-row-text::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 13px solid #e2e2e2;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  transition: 0.3s ease;
+}
+.customers-row-text:hover:after {
+  border-top: 13px solid #d98943;
+}
+
+.customers-row-icon {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  height: 100%;
+}
+.customer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.customers-item-name {
+  /* width: 97px; */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+  padding-bottom: 12px;
+}
+.customers-item-occupation {
+  /* width: 59px; */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}

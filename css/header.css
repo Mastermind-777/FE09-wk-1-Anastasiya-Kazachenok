@@ -1,0 +1,85 @@
+.header {
+  width: 100%;
+  background: #000000;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+/* Так можно делать полоску хедера, чтобы бургер раскрывался под полоской хедера */
+/* .header:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.header-logo {
+  display: inline-block;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.header-logo::after {
+  content: 'it';
+  display: inline-block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #ec7979;
+  font-size: 30px;
+}
+
+/* Если логотип картинка-окружность
+.header-logo {
+  flex: 0 0 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  убирает подрезание окружности снизу
+  display: block;
+}
+.header-logo img {
+  max-width: 100%;
+} */
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav {
+}
+.header-nav_items {
+  display: flex;
+}
+.header-nav_item {
+  margin-left: 48px;
+}
+.header-link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid transparent;
+  transition: 0.35s ease;
+}
+.header-link:hover {
+  color: #ec7979;
+  border-bottom: 2px solid #ec7979;
+}
