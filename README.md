@@ -4,6 +4,6 @@
 ---
 
 *Design layout from Figma.*    
-*I mastered: CSS animations, CSS Grid, CSS Flexbox.*      
+*I mastered: CSS animations, CSS Grid, CSS Flexbox, adaptive and pixel-perfect layout.*      
 
 
